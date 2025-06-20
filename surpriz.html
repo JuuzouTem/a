@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şapşalağıma Özel Sürpriz!</title>
+    <style>
+        /* --- Google Fonts --- */
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+        /* --- Genel Stiller ve Reset --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* --- Ana İçerik Konteyneri --- */
+        .container {
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+        }
+
+        /* --- Başlıklar ve Metinler --- */
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 900;
+            background: -webkit-linear-gradient(45deg, #6a11cb, #2575fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #4a4a4a;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #6a11cb;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .intro-text {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        /* --- GIF --- */
+        .intro-gif {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        /* --- Mesajlar Bölümü --- */
+        .messages-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .messages-list li {
+            background-color: #f8f9fa;
+            border-left: 5px solid #2575fc;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        /* --- Özel Mektup Alanı --- */
+        .letter-placeholder {
+            background-color: #fffde7;
+            border: 2px dashed #fbc02d;
+            border-radius: 10px;
+            padding: 25px;
+            margin-top: 20px;
+            min-height: 150px;
+            text-align: left;
+            color: #5d4037;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .letter-placeholder p.placeholder-instruction {
+            color: #777;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
+        /* --- Başarı Sertifikası --- */
+        .certificate {
+            border: 10px solid;
+            border-image-slice: 1;
+            border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+            padding: 30px;
+            margin-top: 30px;
+            background-color: #faf8ff;
+            position: relative;
+        }
+
+        .certificate-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #743ad5;
+        }
+        
+        .certificate-name {
+            font-size: 2rem;
+            font-weight: 900;
+            margin: 15px 0;
+            color: #333;
+            background-color: #e3f2fd;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .certificate-desc {
+            font-size: 1.1rem;
+            margin: 20px 0;
+        }
+        
+        .certificate-approval {
+            margin-top: 30px;
+            font-style: italic;
+            font-weight: 700;
+        }
+
+        .certificate-date {
+            margin-top: 10px;
+            color: #777;
+        }
+        
+        /* --- Mobil Uyum (Responsive) --- */
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 2.2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            .messages-list li, .letter-placeholder {
+                font-size: 1rem;
+            }
+            .certificate {
+                padding: 20px;
+            }
+            .certificate-name {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ANA BAŞLIK -->
+        <h1>Canım Şapşalağıma Özel ❤️</h1>
+
+        <!-- GİRİŞ METNİ VE GIF -->
+        <p class="intro-text">
+            Sınav öncesi son düzlükte, o güzel beynin mola verip biraz gülümsesin diye sana küçük bir moral deposu hazırladım. Keşfetmeye başla!
+        </p>
+        <img src="https://media1.tenor.com/m/f2T1T80a1_MAAAAC/cat-computer.gif" alt="Ders çalışmaktan beyni yanan sevimli kedi GIF'i" class="intro-gif">
+
+        <!-- KOMİK VE İÇTEN MESAJLAR BÖLÜMÜ -->
+        <div class="messages-section">
+            <h2>Sana Özel Komik Notlar 📝</h2>
+            <ul class="messages-list">
+                <li>🧠 Beynin yandığında aç bu sayfayı, enerjin anında %100 dolsun!</li>
+                <li>☕ O optik forma kodlayacağın her doğru cevap, sana ısmarlayacağım kahvelerin bir adımı olsun!</li>
+                <li>🤔 Sınav anında aklına zor bir soru gelirse, benim ne kadar harika bir sevgili olduğumu düşün. Cevap anında aklına ışınlanacaktır!</li>
+                <li>💖 Unutma, sınavı kazansan da kaybetsen de benim için değerin aynı. (Ama kazanırsan daha güzel olur tabii, şaka şaka!)</li>
+                 <li>💪 Sen bu işin profesörüsün, bu sınav da sadece küçük bir vize. Finalde kupayı kaldıracağız!</li>
+            </ul>
+        </div>
+        
+        <!-- KULLANICININ ÖZEL MEKTUBU ALANI -->
+        <div class="letter-section">
+            <h2>Kalbimden Gelenler 💌</h2>
+            <div class="letter-placeholder">
+                <!-- 
+                    HEY! BURASI SENİN ALANIN :)
+                    Aşağıdaki [KULLANICININ...] ile başlayan metni silip
+                    kendi içten, sevgi dolu mektubunu buraya yapıştırabilirsin.
+                    Ona ne kadar güvendiğini ve onu ne kadar sevdiğini anlat!
+                -->
+                <p class="placeholder-instruction">[KULLANICININ KENDİ MEKTUBU BURAYA GELECEK. BU ALANI BELİRGİN VE DOLDURULABİLİR BIRAK. Örneğin: "Aşkım, biliyorum çok yoruldun ama her şeyin sonunda çok güzel olacak. Ben hep yanındayım ve sana sonsuz güveniyorum..."]</p>
+            </div>
+        </div>
+
+        <!-- FİNAL SÜRPRİZİ: BAŞARI SERTİFİKASI -->
+        <div class="certificate-section">
+            <h2>Ve Final Sürprizi... 🏆</h2>
+            <div class="certificate">
+                <p class="certificate-title">YKS 2025 ŞİMDİDEN KAZANILDI SERTİFİKASI</p>
+                
+                <p style="margin-top: 20px;">Bu sertifika,</p>
+                
+                <!-- 
+                    BURAYA ONUN ADINI YAZMAYI UNUTMA!
+                    Aşağıdaki [Buraya...] yazan kısmı onun adıyla değiştir.
+                -->
+                <div class="certificate-name">[Buraya Erkek Arkadaşının Adını Yaz]</div>
+                
+                <p>adına düzenlenmiştir.</p>
+                
+                <p class="certificate-desc">
+                    Stresi, uykusuz geceleri, sayısız denemeyi ve "bu soru nereden çıktı?" anlarını başarıyla göğüsleyerek bu sertifikayı ŞİMDİDEN almaya hak kazanmıştır. Sınav sadece bir formalitedir.
+                </p>
+
+                <div class="certificate-approval">
+                    <p><strong>Onaylayan:</strong></p>
+                    <p>En Büyük Destekçin ve Hayranın</p>
+                </div>
+                
+                <div class="certificate-date">
+                    <p><strong>Tarih:</strong> Haziran 2025</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
